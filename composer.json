@@ -1,0 +1,16 @@
+{
+    "name": "stas/dz",
+    "autoload": {
+        "psr-4": {
+"App\\": "App/",
+            "Models\\": "App/Models"
+        }
+    },
+    "authors": [
+        {
+            "name": "Stas Parshuk",
+            "email": "stasparsuk@gmail.com"
+        }
+    ],
+    "require": {}
+}
