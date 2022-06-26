@@ -6,7 +6,5 @@ function my_autoloader($class) {
 }
 
 spl_autoload_register('my_autoloader');
-$order = new LuxTaxi();
-$order->create_order();
-var_dump($order->model_car());
-var_dump($order->price(20));
+$order = CreateEconom::create_order();
+echo $order->price(20);

@@ -1,6 +1,6 @@
 <?php
 
-class StandartTaxi implements model,price,core
+class StandartTaxi implements model,price
 {
     private int|float $taxa = 0.7;
     public function create_order():object{

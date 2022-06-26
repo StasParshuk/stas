@@ -1,6 +1,6 @@
 <?php
 
-class EconomTaxi  implements model,price,core
+class EconomTaxi  implements model,price
 {
     private int|float $taxa = 0.5;
     public function create_order():object{

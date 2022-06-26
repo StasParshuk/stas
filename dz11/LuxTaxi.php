@@ -1,6 +1,6 @@
 <?php
 
-class LuxTaxi implements model,price,core
+class LuxTaxi implements model,price
 {
     private int $taxa = 1;
     public function create_order():object{
