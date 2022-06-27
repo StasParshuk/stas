@@ -1,6 +1,6 @@
 <?php
 
-class EconomTaxi  implements model,price
+class EconomTaxi  implements Model,Price
 {
     private int|float $taxa = 0.5;
     public function create_order():object{
@@ -14,3 +14,4 @@ class EconomTaxi  implements model,price
         return $distance * $this->taxa;
     }
 }
+

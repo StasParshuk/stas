@@ -1,6 +1,6 @@
 <?php
 
-class LuxTaxi implements model,price
+class LuxTaxi implements Model,Price
 {
     private int $taxa = 1;
     public function create_order():object{
@@ -13,3 +13,5 @@ class LuxTaxi implements model,price
         return $distance * $this->taxa;
     }
 }
+
+

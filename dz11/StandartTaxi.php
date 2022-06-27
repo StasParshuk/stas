@@ -1,6 +1,6 @@
 <?php
 
-class StandartTaxi implements model,price
+class StandartTaxi implements Model,Price
 {
     private int|float $taxa = 0.7;
     public function create_order():object{
@@ -13,3 +13,5 @@ class StandartTaxi implements model,price
         return $distance * $this->taxa;
     }
 }
+
+

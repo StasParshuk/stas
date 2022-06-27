@@ -1,7 +1,8 @@
 <?php
 
-interface model
+interface Model
 {
     public function model_car():string;
 
 }
+
