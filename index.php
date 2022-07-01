@@ -6,7 +6,7 @@ function my_autoloader($class) {
 }
 
 spl_autoload_register('my_autoloader');
-$order = CreateEconom::create_order();
-echo $order->price(20);
+$order = CreateAple::create_pay();
+echo $order->buy();
 
 

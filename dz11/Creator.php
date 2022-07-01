@@ -2,6 +2,6 @@
 
 abstract class Creator
 {
-    abstract  static function create_order():object;
+    abstract  static function create_pay():object;
 }
 
